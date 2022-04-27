@@ -2,11 +2,9 @@ Instructions on how to deploy the Automox agent using the SentinelOne console.
 
 Deployment Overview
 
-
-Choose the correct scripts for respective OS versions that you want to deploy to. This can be done to Windows, Mac, and Linux devices. 
-1. Edit the access key in the deployment script
-2. Upload script(s) to S1 Console
-3. Set Automation Policy in S1 using the deployment script
+1. Choose the correct script for deployment
+2. Edit the access key in the deployment script
+3. Upload script(s) to S1 Console
 4. Bulk deploy to all devices running the same OS
 5. Choose devices to run deployment policy across
 6. See the results of the policy execution 
