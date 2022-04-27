@@ -1,6 +1,8 @@
-#This script is designed to deploy the Automox Agent to Windows Devices. You will need to add your Automox Agent Access Key to the $key variable in line 3.
+#This script is designed to deploy the Automox Agent to Windows Devices. You will need to add your Automox Agent Access Key to the $key variable in line 4.
 
+#####################USER INPUT#####################
 $key="your_access_key"
+####################################################
 
 # Check if already installed
 $unkeys = "HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall"
