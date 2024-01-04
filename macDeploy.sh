@@ -8,3 +8,9 @@ key="your_access_key"
 
 
 sudo curl -A 'ax:ax-agent-deployer/S1 0.1.2 (Mac)' -sS 'https://console.automox.com/downloadInstaller?accesskey=$key' | sudo bash
+
+if [ "$(launchctl list | grep -c automox)" -lt 1 ]; then
+    launchctl load /Library/LaunchDaemons/com.automox.agent.plist
+fi
+
+exit
